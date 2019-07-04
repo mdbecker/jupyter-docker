@@ -4,7 +4,7 @@ FROM selenium/standalone-firefox
 
 ARG NB_USER="jovyan"
 ARG NB_UID="1001"
-ARG NB_GID="100"
+ARG NB_GID="101"
 
 USER root
 
