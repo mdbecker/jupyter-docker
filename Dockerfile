@@ -3,7 +3,7 @@ FROM selenium/standalone-firefox
 # https://raw.githubusercontent.com/jupyter/docker-stacks/master/datascience-notebook/Dockerfile
 
 ARG NB_USER="jovyan"
-ARG NB_UID="1000"
+ARG NB_UID="1001"
 ARG NB_GID="100"
 
 USER root
